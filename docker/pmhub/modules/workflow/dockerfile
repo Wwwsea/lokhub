@@ -1,0 +1,15 @@
+# 基础镜像
+FROM  openjdk:8-jre
+# author
+MAINTAINER fish
+
+# 挂载目录
+VOLUME /home/lokhub
+# 创建目录
+RUN mkdir -p /home/lokhub
+# 指定路径
+WORKDIR /home/lokhub
+# 复制jar文件到路径
+COPY ./jar/lokhub-workflow.jar /home/lokhub/lokhub-workflow.jar
+# 启动定时任务服务
+ENTRYPOINT ["java","-jar","lokhub-workflow.jar"]

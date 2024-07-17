@@ -1,0 +1,11 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.laigeoffer.lokhub.base.core.utils.spring.SpringUtils,\
+com.laigeoffer.lokhub.base.core.config.lokhubConfig,\
+com.laigeoffer.lokhub.base.core.config.MetaObjectHandlerConfig,\
+com.laigeoffer.lokhub.base.core.aspectj.RateLimiterAspect,\
+com.laigeoffer.lokhub.base.core.config.JacksonConfig,\
+com.laigeoffer.lokhub.base.core.config.MybatisPlusConfig,\
+com.laigeoffer.lokhub.base.core.config.ServerConfig,\
+com.laigeoffer.lokhub.base.core.config.ThreadPoolConfig,\
+com.laigeoffer.lokhub.base.core.config.redis.RedisConfig,\
+com.laigeoffer.lokhub.base.core.config.redis.RedisService

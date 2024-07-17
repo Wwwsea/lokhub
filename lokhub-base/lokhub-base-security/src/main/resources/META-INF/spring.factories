@@ -1,0 +1,11 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.laigeoffer.lokhub.base.security.aspect.InnerAuthAspect,\
+com.laigeoffer.lokhub.base.security.aspect.PreAuthorizeAspect,\
+com.laigeoffer.lokhub.base.security.service.TokenService,\
+com.laigeoffer.lokhub.base.security.handle.GlobalExceptionHandler,\
+com.laigeoffer.lokhub.base.security.config.WebMvcConfig,\
+com.laigeoffer.lokhub.base.security.aspect.LogAspect,\
+com.laigeoffer.lokhub.base.core.config.ResourcesConfig,\
+com.laigeoffer.lokhub.base.security.service.redisson.RedissonDistributedLock,\
+com.laigeoffer.lokhub.base.security.aspect.DistributedLockAspect,\
+com.laigeoffer.lokhub.base.security.config.RedissonConfig

@@ -1,0 +1,15 @@
+# 基础镜像
+FROM  openjdk:8-jre
+# author
+MAINTAINER fish
+
+# 挂载目录
+VOLUME /home/lokhub
+# 创建目录
+RUN mkdir -p /home/lokhub
+# 指定路径
+WORKDIR /home/lokhub
+# 复制jar文件到路径
+COPY ./jar/lokhub-gen.jar /home/lokhub/lokhub-gen.jar
+# 启动代码生成服务
+ENTRYPOINT ["java","-jar","lokhub-gen.jar"]

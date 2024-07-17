@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.laigeoffer.lokhub.base.datasource.properties.DruidProperties,\
+com.laigeoffer.lokhub.base.datasource.config.DruidConfig

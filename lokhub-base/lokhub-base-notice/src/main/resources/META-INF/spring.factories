@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.laigeoffer.lokhub.base.notice.consumer.OAMessageConsumer,\
+com.laigeoffer.lokhub.base.notice.service.impl.WorkWxUtilsServiceImpl,\
+com.laigeoffer.lokhub.base.notice.utils.PublicUtil,\
+com.laigeoffer.lokhub.base.notice.utils.RocketMqUtils,\
+com.laigeoffer.lokhub.base.notice.utils.MessageUtils
